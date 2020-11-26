@@ -6,10 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="../src/style/style.css">
-</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
 
 <body>
-
+  <div id="app-container">
+    <div id="app-header">
+      <header class="header">
+        <div class="flex">
+          <span class="header-title">
+            <i id="placeholder-logo" class="fab fa-hacker-news"></i>
+            HackerNews
+          </span>
+          <a href="#/" class="header-link">Top</a>
+          <a href="#/new" class="header-link">New</a>
+          <a href="#/ask" class="header-link">Ask</a>
+          <a href="#/show" class="header-link">Show</a>
+          <a href="#/favorites" class="header-link">Favorites</a>
+        </div>
+      </header>
+    </div>
+    <div id="route-container">
+      <div id="router-outlet"></div>
+    </div>
+  </div>
 </body>
 
 </html>
