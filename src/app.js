@@ -1,6 +1,5 @@
 class App {
-  constructor() {
-    alert('app works!')  
+  constructor() { 
   }  
 }
 
