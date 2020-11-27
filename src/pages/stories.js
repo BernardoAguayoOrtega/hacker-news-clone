@@ -1,3 +1,5 @@
+import view from '../utils/view.js'
+
 export default function Stories() {
-  return `<div>Stories<div>`
+   view.innerHTML = `<div>Stories<div>`
 }
