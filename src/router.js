@@ -19,7 +19,7 @@ class RouterHandler {
 		routes.forEach((route) => {
 			router
 				.on(route.path, () => {
-					route.page()
+					route.page(route.path)
 				})
 				.resolve();
 		});
